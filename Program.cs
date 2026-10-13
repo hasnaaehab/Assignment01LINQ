@@ -41,6 +41,22 @@ namespace Assignment01LINQ
             //    Console.WriteLine(product);
             //}
             #endregion
+
+            #region Question 5
+            //var productDto = ProductList.Select(p => new
+            //{
+
+            //    p.ProductName,
+            //    p.UnitPrice,
+            //    StockkStatus = (p.UnitsInStock > 0) ? "Available" : "Out of Stock"
+            //});
+
+            //foreach (var product in productDto)
+            //{
+            //    Console.WriteLine(product);
+            //}
+            #endregion
         }
+
     }
 }
