@@ -8,7 +8,7 @@ namespace Assignment01LINQ
         static void Main(string[] args)
         {
 
-            
+
             #region Question 1 
             //var seafoodproducts = ProductList.Where(p => p.Category == "Seafood").Select(x => new { x.ProductName , x.UnitPrice}); 
             //foreach (var product in seafoodproducts)
@@ -16,6 +16,16 @@ namespace Assignment01LINQ
             //    Console.WriteLine(product);
             //}
             #endregion
+
+            #region Question 2
+            //var productNames = ProductList.Select(p => p.ProductName);
+            //foreach (var productName in productNames)
+            //{
+            //    Console.WriteLine(productName);
+            //}
+            #endregion
+
+
         }
     }
 }
