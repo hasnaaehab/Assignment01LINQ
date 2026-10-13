@@ -32,6 +32,15 @@ namespace Assignment01LINQ
             //    Console.WriteLine(product);
             //}
             #endregion
+
+
+            #region Question 4
+            //var CondimentsInstockproducts = ProductList.Where(p => p.Category == "Condiments" && p.UnitsInStock>0);
+            //foreach (var product in CondimentsInstockproducts)
+            //{
+            //    Console.WriteLine(product);
+            //}
+            #endregion
         }
     }
 }
