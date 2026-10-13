@@ -25,7 +25,13 @@ namespace Assignment01LINQ
             //}
             #endregion
 
-
+            #region Question 3
+            //var ProudctsBetween10and20 = ProductList.Where(p => p.UnitPrice>= 10 && p.UnitPrice <=20);
+            //foreach (var product in ProudctsBetween10and20)
+            //{
+            //    Console.WriteLine(product);
+            //}
+            #endregion
         }
     }
 }
