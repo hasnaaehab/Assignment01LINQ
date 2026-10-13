@@ -56,7 +56,20 @@ namespace Assignment01LINQ
             //    Console.WriteLine(product);
             //}
             #endregion
-        }
 
+            #region Question 6
+            //var indexedonebasedproducts = ProductList.Select((p, index) => new
+            //{
+
+            //    Index = index + 1,
+            //    p.ProductName
+            //});
+
+            //foreach (var product in indexedonebasedproducts)
+            //{
+            //    Console.WriteLine(product);
+            //}
+            #endregion
+        }
     }
 }
